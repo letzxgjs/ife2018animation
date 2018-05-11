@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>ew</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+</head>
+<style>
+	.face {
+		position: absolute;
+		top: 40px;
+		left: 50%;
+		margin-left: -175px;
+		width: 350px;
+		height: 250px;
+		border: 2px solid #f00;
+		border-radius: 50% 50% 30% 30%;
+		overflow: hidden;
+		background-color: #fff;
+		z-index: 10;
+	}
+	.ear-left {
+		position: absolute;
+		top: 30px;
+		left: 50%;
+		margin-left: -150px;
+		width: 80px;
+		height: 120px;
+		border: 2px solid #00f;
+		border-radius: 100% 10% 50% 0;
+	}
+	.ear-right {
+		position: absolute;
+		top: 30px;
+		right: 50%;
+		margin-right: -150px;
+		width: 80px;
+		height: 120px;
+		border: 2px solid #0f0;
+		border-radius: 10% 100% 0 50%;
+		background-color: #F1AC2B;
+	}
+	.eye {
+		width: 280px;
+		height: 70px;
+		position: absolute;
+		top: 80px;
+		left: 50%;
+		margin-left: -140px;
+		overflow: hidden;
+	}
+	.eyel {
+		width: 100px;
+		height: 80px;
+		position: absolute;
+		left: 0;
+		border: 2px solid #111;
+		border-radius: 50% 50% 40% 40%;
+		overflow: hidden;
+	}
+	.eye-bottom {
+		width: 100px;
+		height: 100px;
+		margin-top: 80px;
+		position: absolute;
+		/*-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;*/
+		border: 2px solid #222;
+		border-radius: 40% 40% 50% 50%;
+		box-sizing: border-box;
+	}
+	.br {
+		width: 100px;
+		height: 100px;
+		background-color: #0f0;
+		opacity: .3;
+		position: absolute;
+		top: 30px;
+		left: 50%;
+		margin-left: -50px;
+		border-bottom: 4px solid #f00;
+		border-right: 4px solid #00f;
+		border-radius: 0 50% 20% 40%;
+	}
+</style>
+<body>
+    <div class="face">
+    	<div class="eye">
+    		<div class="eyel">
+    			<div class="eye-bottom"></div>
+    			<div class="eye-core"></div>
+    		</div>
+			<div class="eyer"></div>
+    	</div>
+    	<div class="br"></div>
+    </div>
+    <div class="ear">
+    	<div class="ear-left">
+    	</div>
+    	<div class="ear-right"></div>
+    </div>
+</body>
+</html>

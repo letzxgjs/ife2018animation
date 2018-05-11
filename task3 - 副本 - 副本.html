@@ -168,54 +168,7 @@
         right: 0;
     }
     /*鼠标hover样式 写在这里*/
-    /*耳朵*/
-    .ear-wrap .left {
-        transition: transform 1s;
-    }
-    .container:hover .ear-wrap .left {
-        transform: rotate(-30deg);
-    }
-    .ear-wrap .right {
-        transition: transform 1s;
-    }
-    .container:hover .ear-wrap .right {
-        transform: rotate(30deg);
-    }
-    /*眼睛*/
-    .eye-core {
-        transition: width 1s, height 1s, margin-left 1s;
-    }
-    .container:hover .eye-core {
-        width: 40px;
-        height: 60px;
-        margin-left: -20px;
-    }
-    .eye-bottom {
-        transition: margin-top 1s;
-    }
-    .container:hover .eye-bottom {
-        margin-top: 32px;
-    }
-    /*face*/
-    .face-red {
-        transition: opacity 1s;
-    }
-    .container:hover .face-red {
-        opacity: .5;
-    }
-    /*嘴巴*/
-    .mouth-wrap .left {
-        transition: border-bottom-left-radius 1s;
-    }
-    .container:hover .mouth-wrap .left {
-        border-bottom-left-radius: 50%;
-    }
-    .mouth-wrap .right {
-        transition: border-bottom-right-radius 1s;
-    }
-    .container:hover .mouth-wrap .right {
-        border-bottom-right-radius: 50%;
-    }
+        
 </style>
 </head>
 <body>
@@ -232,8 +185,8 @@
 	                <div class="eye-circle">
 	                    <div class="eye-core"></div>
 	                </div>
-	                <div class="eye-bottom"></div>
-	                <div class="face-red"></div>
+	                <!-- <div class="eye-bottom"></div> -->
+	                <!-- <div class="face-red"></div> -->
 	            </div>
 	            <div class="eye right">
 	                <div class="eye-circle">
@@ -248,7 +201,7 @@
 	        </div>
 	        <!-- 嘴巴 -->
 	        <div class="mouth-wrap">
-	            <div class="mout   h-top"></div>
+	            <!-- <div class="mouth-top"></div> -->
 	            <div class="mouth left"></div>
 	            <div class="mouth right"></div>
 	        </div>
